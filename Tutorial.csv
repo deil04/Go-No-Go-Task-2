@@ -1,0 +1,5 @@
+color,condition,space_key
+Images/mice.png,go,space
+Images/mice.png,go,space
+Images/cat.png,nogo,None
+Images/cat.png,nogo,None
