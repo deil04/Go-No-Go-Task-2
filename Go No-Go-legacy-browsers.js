@@ -1626,6 +1626,7 @@ function EndRoutineBegin(snapshot) {
     
     // Convert data object to CSV
     let data = [Object.keys(dataObj[0])].concat(dataObj).map(it => {
+        console.log(dataObj)
         return Object.values(it).toString()
     }).join('\n')
     
